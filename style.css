@@ -208,7 +208,7 @@ p{
     padding: 20px auto;
 }
 /* Mobile Device*/
-@media only screen and (max-width:850px){
+@media  only screen and (max-width:850px){
     .navbar{
         padding: 0;
 
@@ -234,6 +234,10 @@ p{
     .mobile-menu{
         margin-top: 0px;
         border-bottom-right-radius: 30%;
+        
+    }
+    .menu-btn{
+        display: block;
     }
     .nav-links li{
         margin: 30px auto;
